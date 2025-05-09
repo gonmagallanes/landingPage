@@ -8,11 +8,17 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto";
+  scroll-behavior: smooth;
 }
 
 .link {
   text-decoration: none;
   color: #f9faf8;
+  transition: 0.2s;
+}
+
+.linkHeader:hover{
+    transform: scale(1.1) ;
 }
 
 header {
@@ -74,6 +80,11 @@ header {
   font-size: 20px;
   border-radius: 10px;
   width: 15vw;
+  transition: 0.3s;
+}
+.botonCV:hover {
+  background-color: #0a1a30;
+  border: 2px inset #1f2937;
 }
 
 .fotoCV {
@@ -97,6 +108,7 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding-bottom: 5vw;
 }
 
 .proyectoGrid {
@@ -114,8 +126,32 @@ header {
 }
 
 .fotoProyecto:hover {
-    transform: scale(1.1);
-    opacity: 1;
-    border: 20px dashed #0a1a30;
+  transform: scale(1.1);
+  opacity: 1;
+  box-shadow: 0px 20px 20px #1f2937;
+}
 
+.infoPersonal {
+  display: flex;
+  justify-content: center;
+  background-color: #e5e7eb;
+  padding: 5vw;
+  text-align: center;
+  color: #1f2937;
+}
+
+.infoText {
+  width: 50vw;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.contactos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    background-color: #1f2937;
+    color: #f9faf8;
+    gap: 3vw;
 }

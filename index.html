@@ -4,15 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing Page</title>
-    <link rel="shortcut icon" href="./style/FotoCV.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="./style/FotoCV.jpg" type="image/x-icon" />
     <link rel="stylesheet" href="./style/style.css" />
   </head>
   <body>
     <header>
       <h2 class="bienvenida">Bienvenido a mi Portfolio!</h2>
       <div class="miniNav">
-        <h3>Proyectos</h3>
-        <h3>Mi progeso</h3>
+        <a class="link linkHeader" href="#proyectos"><h3>Proyectos</h3></a>
+        <a class="link linkHeader" href="#contactos"><h3>Mi progeso</h3></a>
       </div>
     </header>
     <main>
@@ -24,14 +24,10 @@
           <h2 class="perfilSubname">
             Soy estudiante de la Tecnicatura en Analisista de Sistemas
           </h2>
-          <button class="botonCV">
-            <a
-              target="_blank"
-              class="link"
-              href="./style/gonzaloMagallanesCV.pdf"
-              >Mi CV</a
-            >
-          </button>
+
+          <a target="_blank" class="link" href="./style/gonzaloMagallanesCV.pdf"
+            ><button class="botonCV">Mi CV</button></a
+          >
         </div>
         <img
           src="./style/FotoCV.jpg"
@@ -39,18 +35,69 @@
           alt="Foto DNI de Gonzalo Magallanes"
         />
       </section>
-      <section class="proyectos">
+      <section id="proyectos" class="proyectos">
         <div class="headerProyectos">
           <h1>Mis Proyectos</h1>
         </div>
         <div class="proyectoGrid">
-          <a href=""><img class="fotoProyecto" src="./style/img/profesTemplate.jpeg" alt=""></a>
-          <a href=""><img class="fotoProyecto" src="./style/img/storeNBA.jpeg" alt=""></a>
-          <a href=""><img class="fotoProyecto" src="./style/img/superJS.jpeg" alt=""></a>
-          <a href=""><img class="fotoProyecto" src="./style/img/tablaSistemas.jpeg" alt=""></a>
+          <a href="https://gonmagallanes.github.io/ProfesoresTemplate/"
+            ><img
+              class="fotoProyecto"
+              src="./style/img/profesTemplate.jpeg"
+              alt="Template para profesores"
+          /></a>
+          <a href="https://gonmagallanes.github.io/NBA_Store/"
+            ><img
+              class="fotoProyecto"
+              src="./style/img/storeNBA.jpeg"
+              alt="Tienda de NBA"
+          /></a>
+          <a href="https://gonmagallanes.github.io/superMercadoJS/"
+            ><img
+              class="fotoProyecto"
+              src="./style/img/superJS.jpeg"
+              alt="Tienda de Supermercado"
+          /></a>
+          <a href="https://gonmagallanes.github.io/TablaSistemas/"
+            ><img
+              class="fotoProyecto"
+              src="./style/img/tablaSistemas.jpeg"
+              alt="Sistema de notas"
+          /></a>
         </div>
       </section>
+      <section class="infoPersonal">
+        <h2 class="infoText">
+          Estudiante avanzado de la Tecnicatura en Análisis de Sistemas (23
+          años) con una sólida base en desarrollo web. Me caracterizo por mi
+          rápida curva de aprendizaje, mi gran compañerismo y mi proactividad en
+          la búsqueda de soluciones y nuevos desafíos.
+        </h2>
+      </section>
+      <section class="conocimientos">
+        <h2>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores
+          tempore molestias, cum corporis fuga quisquam incidunt optio
+          voluptatibus quos odio a doloremque non error id fugiat quaerat
+          voluptate fugit quia itaque. Quisquam animi, cupiditate laboriosam, ab
+          quidem mollitia dolor necessitatibus officiis, aliquid temporibus
+          beatae aspernatur ut omnis deserunt excepturi quam.
+        </h2>
+      </section>
     </main>
-    <footer></footer>
+    <footer id="contactos" class="contactos">
+      <a href="https://github.com/gonmagallanes"
+        ><img
+          style="width: 3vw"
+          src="./style/img/github.png"
+          alt="link de github"
+      /></a>
+      <a href="https://www.linkedin.com/in/gonzalomagallanes/"
+        ><img
+          style="width: 3vw"
+          src="./style/img/linkedin.png"
+          alt="link de linkedin"
+      /></a>
+    </footer>
   </body>
 </html>
