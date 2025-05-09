@@ -1,6 +1,6 @@
 @font-face {
   font-family: Roboto;
-  src: url(./font/Roboto/Roboto-VariableFont_wdth\wght.ttf);
+  src: url(../style/font/Roboto/static/Roboto-Regular.ttf);
 }
 
 * {
