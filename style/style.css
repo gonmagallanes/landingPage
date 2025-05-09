@@ -1,0 +1,58 @@
+
+@font-face {
+    font-family: Roboto;
+    src: url(./font/Roboto/Roboto-VariableFont_wdth\,wght.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+
+header{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 5vw;
+   
+}
+
+.bienvenida {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.miniNav{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    color: #E5E7EB;
+}
+
+.mainPerfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding-top: 50px;
+    gap: 5vw;
+    
+}
+
+.perfilName{
+    color: #E5E7EB;
+    font-size: 40px;
+    text-align: center;
+}
+
+.fotoCV {
+    width: 300px;
+    border-radius: 50px;
+    border: 2px solid  #0a1a30;
+}
