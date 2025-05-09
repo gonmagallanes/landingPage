@@ -1,58 +1,121 @@
-
 @font-face {
-    font-family: Roboto;
-    src: url(./font/Roboto/Roboto-VariableFont_wdth\,wght.ttf);
+  font-family: Roboto;
+  src: url(./font/Roboto/Roboto-VariableFont_wdth\wght.ttf);
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Roboto";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
 }
 
+.link {
+  text-decoration: none;
+  color: #f9faf8;
+}
 
-header{
-    background-color: #1F2937;
-    color: #F9FAF8;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 5vw;
-   
+header {
+  background-color: #1f2937;
+  color: #f9faf8;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 5vw;
 }
 
 .bienvenida {
-    font-size: 24px;
-    font-weight: 900;
+  font-size: 24px;
+  font-weight: 900;
 }
 
-.miniNav{
-    display: flex;
-    justify-content: center;
-    gap: 16px;
-    color: #E5E7EB;
+.miniNav {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  color: #e5e7eb;
 }
 
-.mainPerfil{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #1F2937;
-    color: #F9FAF8;
-    padding-top: 50px;
-    gap: 5vw;
-    
+.mainPerfil {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  color: #f9faf8;
+  padding: 50px 5vw 50px 5vw;
+  gap: 5vw;
+}
+.izquierdaPerfil {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
-.perfilName{
-    color: #E5E7EB;
-    font-size: 40px;
-    text-align: center;
+.perfilName {
+  color: #f9faf8;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.perfilSubname {
+  color: #e5e7eb;
+  font-size: 30px;
+}
+
+.botonCV {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  background-color: #3882f6;
+  border: none;
+  color: #f9faf8;
+  font-weight: bolder;
+  font-size: 20px;
+  border-radius: 10px;
+  width: 15vw;
 }
 
 .fotoCV {
-    width: 300px;
-    border-radius: 50px;
-    border: 2px solid  #0a1a30;
+  width: 300px;
+  border-radius: 50px;
+  border: 2px solid #0a1a30;
+}
+
+.headerProyectos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5vw 0 3vw 0;
+  font-size: 30px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+.proyectos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.proyectoGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5vw;
+}
+
+.fotoProyecto {
+  width: 40vw;
+  border-radius: 10px;
+  border: 2px solid #0a1a30;
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+.fotoProyecto:hover {
+    transform: scale(1.1);
+    opacity: 1;
+    border: 20px dashed #0a1a30;
+
 }
