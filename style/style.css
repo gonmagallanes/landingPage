@@ -17,8 +17,8 @@
   transition: 0.2s;
 }
 
-.linkHeader:hover{
-    transform: scale(1.1) ;
+.linkHeader:hover {
+  transform: scale(1.1);
 }
 
 header {
@@ -147,11 +147,40 @@ header {
 }
 
 .contactos {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 15vh;
-    background-color: #1f2937;
-    color: #f9faf8;
-    gap: 3vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15vh;
+  background-color: #1f2937;
+  color: #f9faf8;
+  gap: 3vw;
+}
+
+.headerConocimientos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5vw 0 3vw 0;
+  font-size: 30px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+.iconosConocimientos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 3vw 0;
+}
+
+.iconsText {
+  text-align: center;
+  text-decoration: underline #1f2937;;
+  padding-bottom: 1vh;
+  color: #1f2937;
+}
+
+.icons {
+  display: flex;
+  width: 15vw;
 }
