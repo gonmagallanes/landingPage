@@ -87,11 +87,22 @@ header {
   border: 2px inset #1f2937;
 }
 
-.fotoCV {
-  width: 20vw;
+.fotoNueva{
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items:  center;
+  overflow: hidden;
   border-radius: 50px;
   border: 2px solid #0a1a30;
 }
+
+.fotoCV{
+  width: 100%;
+  object-fit: contain;
+}
+
 
 .headerProyectos {
   display: flex;
